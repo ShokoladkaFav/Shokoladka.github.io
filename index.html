@@ -1,35 +1,41 @@
-<html>
+<!DOCTYPE html>
+<html lang="uk">
 <head>
-
-<link rel = "stylesheet" href = "style.css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Сайт нагібаторр роботів 228</title>
+    <link rel="stylesheet" href="style.css"> <!-- Підключення CSS -->
 </head>
 <body>
-<div class = "registration-form">
-<h1>Форма для регестрації</h1>
-<form action ="https://webhook.site">
-<label for = "inputName">Ваше ім'я <sup style = "color: red;">*</sup></label><br>
-<input type = "text" name = "inputName" required><br>
+    <!-- Навігація сайту -->
+<header>    </header>
 
-<label for = "inputSurname">Призвіще <sup style = "color: red;">*</sup></label><br>
-<input type = "text" name = "inputSurname" required><br>
+        <nav>
+            <ul class="horizontal-list">
+                <li><a href="rozklad.html">Розклад</a></li>
+                <li><a href="promene.html">Про мене</a></li>
+                <li><a href="prakt.html">Практичні</a></li>
+                <li><a href="LB.html">Лабораторні</a></li>
+            </ul>
+        </nav>
 
-<label for = "inputEmeil">Ваша електронна адреса <sup style = "color: red;">*</sup></label><br>
-<input type = "email" name = "inputEmeil" 
-pattern = "[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required><br>
+    <!-- Основний вміст сайту -->
+    <main>
+        <section id="welcome">
+            <h1>Вітаємо на моєму сайті!</h1>
+            <p>ТутСайт був створений в підвалі університету,0-25 аудиторія</p>
+        </section>
 
-<label for = "inputPassword">Ваш Пароль <sup style = "color: red;">*</sup></label><br>
-<input type = "text" name = "inputPassword" required><br>
+        <section id="about">
+            <h2>Про мене</h2>
+            <p>Я можу зробити сайт,здається ¯\(°_o)/¯ </p>
+        </section>
+    </main>
 
-<label for = "inputPass">Підтвердіть ваш пароль <sup style = "color: red;">*</sup></label><br>
-<input type = "text" name = "inputPass" required><br>
-
-<label for = "inputDay">Ваш рік народження </label><br>
-<input type = "date" name = "inputDay"><br>
-
-<button  type ="submit">Подати</button>
-
-</form>
-</div>
-<body>
+    <!-- Підвал сайту -->
+    <footer>
+        <p>&copy; Сайт був зроблений для другої практичної</p>
+    </footer>
+</body>
 </html>
